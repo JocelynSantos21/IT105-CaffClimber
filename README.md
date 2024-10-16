@@ -18,7 +18,7 @@
         <table  cellpadding="10" border="1"> 
         <tbody>
         <tr>
-            not to self: want tp add the "Caffinated Climber" image tom generated somewhere on the page (Perferably at the top near the banner)
+            not to self: want to add the "Caffinated Climber" image tom generated somewhere on the page (Perferably at the top near the banner)
             <td>Column One</td>
             note to self: up above, we can replace this with a text box and inside textbox would be briefe introduction on what the Caffinated Climber brand is about
             <td>Column Two</td>
