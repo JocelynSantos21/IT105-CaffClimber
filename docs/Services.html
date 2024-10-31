@@ -8,15 +8,7 @@
   </head>
 <body onload="loadDoc()">
  
-<script>
-/*
-Data fields from the xml file
-ROOT - SERVICES>
-    ELEMENT - SERVICE>
-        ELEMENT - <DNAME/>Cappuccino
-        ELEMENT - <DCOMP/>steamed with frothed milk
-        ELEMENT - <DCATEGORY/>coffee
- */        
+<script>     
 
 function loadDoc() {
 	var xhttp = new XMLHttpRequest();
@@ -25,7 +17,7 @@ function loadDoc() {
 			myFunction(this);
 		}
 	};
-	xhttp.open("GET", "beverage.xml", true);
+	xhttp.open("GET", "Service.xml", true);
 	xhttp.send();
 }
 function myFunction(xml) {
