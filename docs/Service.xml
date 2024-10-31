@@ -28,7 +28,7 @@
         <DDESC>Bouldering</DDESC>
         <DURA>01 Day</DURA>
         <DCOST>$200.00</DCOST>
-        <DHOUR>5 Hours</DHOUR>
+        <DEPART>5 Hours</DEPART>
         <DSCRIP> Pulpit Rocks,Huntingdon from 1pm-6pm</DSCRIP>
     </SERVICE>
    <SERVICE>
@@ -36,7 +36,7 @@
         <DDESC>Top-Roping Day</DDESC>
         <DURA>01 Day</DURA>
         <DCOST>$400.00</DCOST>
-        <DHOUR>8 Hours</DHOUR>
+        <DEPART>8 Hours</DEPART>
         <DSCRIP>9am-5pm</DSCRIP>
     </SERVICE>
    <SERVICE>
