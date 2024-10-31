@@ -24,19 +24,25 @@ function myFunction(xml) {
 	var i;
 	var xmlDoc = xml.responseXML;
 	var divcols='<div class="row">';
-	divcols += '   <div class="col-md-4"><b>Drink Name</b></div>';
-	divcols += '   <div class="col-md-4"><b>Drink Composition</b></div>';
-	divcols += '   <div class="col-md-4"><b>Drink Category</b></div>';
+	divcols += '   <div class="col-md-2"><b>Service</b></div>';
+	divcols += '   <div class="col-md-2"><b>Description</b></div>';
+	divcols += '   <div class="col-md-2"><b>Duration</b></div>';
+	divcols += '   <div class="col-md-2"><b>Cost</b></div>';
+	divcols += '   <div class="col-md-2"><b>Departure</b></div>';
+	divcols += '   <div class="col-md-2"><b>Bio</b></div>';
 	divcols += '</div>';
 // -- WHAT IS LOADED INTO THE DIVCOLS VARIABLE
 //  --  console.log(divcols);
 // ---------------------------------------
-	var x = xmlDoc.getElementsByTagName("BEVERAGE");
+	var x = xmlDoc.getElementsByTagName("Service");
 	for (i = 0; i <x.length; i++) { 
 		divcols += '<div class="row">';
-		divcols += '<div class="col-md-4">' + x[i].getElementsByTagName("DNAME")[0].childNodes[0].nodeValue + '</div>';
-		divcols += '<div class="col-md-4">' + x[i].getElementsByTagName("DCOMP")[0].childNodes[0].nodeValue + '</div>';
-        divcols += '<div class="col-md-4">' + x[i].getElementsByTagName("DCATEGORY")[0].childNodes[0].nodeValue + '</div>';
+		divcols += '<div class="col-md-2">' + x[i].getElementsByTagName("DNAME")[0].childNodes[0].nodeValue + '</div>';
+		divcols += '<div class="col-md-2">' + x[i].getElementsByTagName("DCOMP")[0].childNodes[0].nodeValue + '</div>';
+       		 divcols += '<div class="col-md-2">' + x[i].getElementsByTagName("DCATEGORY")[0].childNodes[0].nodeValue + '</div>';
+		divcols += '<div class="col-md-2">' + x[i].getElementsByTagName("DNAME")[0].childNodes[0].nodeValue + '</div>';
+		divcols += '<div class="col-md-2">' + x[i].getElementsByTagName("DCOMP")[0].childNodes[0].nodeValue + '</div>';
+       		 divcols += '<div class="col-md-2">' + x[i].getElementsByTagName("DCATEGORY")[0].childNodes[0].nodeValue + '</div>';
 		divcols += '</div>';
 	}
 	document.getElementById("mycontainer").innerHTML = divcols;
