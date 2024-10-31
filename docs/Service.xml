@@ -69,7 +69,7 @@
         <DURA>01 Day</DURA>
         <DCOST>$400.00</DCOST>
         <DHOUR>8 Hours</DHOUR>
-        <DSCRIP> 9am-5pm</DSCRIP>
+        <DSCRIP>9am-5pm</DSCRIP>
     </SERVICE>
    <SERVICE>
         <DSERV>Land Nav</DSERV>
@@ -77,6 +77,6 @@
         <DURA>01 Day</DURA>
         <DCOST>$400.00</DCOST>
         <DHOUR> 8 Hours</DHOUR>
-        <DSCRIP> 9am-5pm</DSCRIP>
+        <DSCRIP>9am-5pm</DSCRIP>
     </SERVICE>
 </SERVICES>
