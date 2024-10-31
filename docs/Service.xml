@@ -1,0 +1,82 @@
+<SERVICES>
+    <SERVICE>
+        <DSERV>Bckpacking</DSERV>
+        <DDESC>Weekend Backpacking Trip</DDESC>
+        <DURA>03 Days</DURA>
+        <DCOST>$750.00</DCOST>
+        <DEPART>Fri-Noon-Return-Sun</DEPART>
+        <DSCRIP> Backpacking trip from Mapleton Depot to the Martins Gap via the Standing Stone trail. Includes all meals.</DSCRIP>
+    </SERVICE>
+   <SERVICE>
+        <DSERV>Bckpacking</DSERV>
+        <DDESC>Week Backpacking Trip</DDESC>
+        <DURA>07 Days</DURA>
+        <DCOST>$1400.00</DCOST>
+        <DEPART>Sunday-Return-Saturday</DEPART>
+        <DSCRIP> 5 day backpacking trip from Cowans Gap State park to Greenwood Furnace State Park via Standing Stone Trail. Includes all meals</DSCRIP>
+    </SERVICE>
+  <SERVICE>
+        <DSERV>Bckpacking</DSERV>
+        <DDESC>Backpacking Trek</DDESC>
+        <DURA>14 Days</DURA>
+        <DCOST>$280.00</DCOST>
+        <DEPART>Sunday-Return-Saturday</DEPART>
+        <DSCRIP>14 days backpacking trip from Michuax State Forest,PA to Cascade,MD</DSCRIP>
+    </SERVICE>
+  <SERVICE>
+        <DSERV>Climbing</DSERV>
+        <DDESC>Bouldering</DDESC>
+        <DURA>01 Day</DURA>
+        <DCOST>$200.00</DCOST>
+        <DHOUR>5 Hours</DHOUR>
+        <DSCRIP> Pulpit Rocks,Huntingdon from 1pm-6pm</DSCRIP>
+    </SERVICE>
+   <SERVICE>
+        <DSERV>Climbing</DSERV>
+        <DDESC>Top-Roping Day</DDESC>
+        <DURA>01 Day</DURA>
+        <DCOST>$400.00</DCOST>
+        <DHOUR>8 Hours</DHOUR>
+        <DSCRIP>9am-5pm</DSCRIP>
+    </SERVICE>
+   <SERVICE>
+        <DSERV>Climbing</DSERV>
+        <DDESC>Top-Roping Belaying</DDESC>
+        <DURA>03 Day</DURA>
+        <DCOST>$120.00</DCOST>
+        <DHOUR> 8 Hours</DHOUR>
+        <DSCRIP>9am-5pm</DSCRIP>
+    </SERVICE>
+   <SERVICE>
+        <DSERV>Climbing</DSERV>
+        <DDESC>Rappelling-Self Rescue</DDESC>
+        <DURA>02 Day</DURA>
+        <DCOST>$800.00</DCOST>
+        <DHOUR>16 Hours</DHOUR>
+        <DSCRIP> 9am-5pm</DSCRIP>
+    </SERVICE>
+   <SERVICE>
+        <DSERV>Climbing</DSERV>
+        <DDESC>Lead Climbing</DDESC>
+        <DURA>02 Day</DURA>
+        <DCOST>$1200.00</DCOST>
+        <DHOUR>16 Hours</DHOUR>
+        <DSCRIP>9am-5pm</DSCRIP>
+    </SERVICE>
+   <SERVICE>
+        <DSERV>Land Nav</DSERV>
+        <DDESC>Map-Compass</DDESC>
+        <DURA>01 Day</DURA>
+        <DCOST>$400.00</DCOST>
+        <DHOUR>8 Hours</DHOUR>
+        <DSCRIP> 9am-5pm</DSCRIP>
+    </SERVICE>
+   <SERVICE>
+        <DSERV>Land Nav</DSERV>
+        <DDESC>GPS</DDESC>
+        <DURA>01 Day</DURA>
+        <DCOST>$400.00</DCOST>
+        <DHOUR> 8 Hours</DHOUR>
+        <DSCRIP> 9am-5pm</DSCRIP>
+    </SERVICE>
+</BEVERAGES>
