@@ -44,7 +44,7 @@
         <DDESC>Top-Roping Belaying</DDESC>
         <DURA>03 Day</DURA>
         <DCOST>$120.00</DCOST>
-        <DHOUR> 8 Hours</DHOUR>
+        <DEPART> 8 Hours</DEPART>
         <DSCRIP>9am-5pm</DSCRIP>
     </SERVICE>
    <SERVICE>
@@ -52,7 +52,7 @@
         <DDESC>Rappelling-Self Rescue</DDESC>
         <DURA>02 Day</DURA>
         <DCOST>$800.00</DCOST>
-        <DHOUR>16 Hours</DHOUR>
+        <DEPART>16 Hours</DEPART>
         <DSCRIP> 9am-5pm</DSCRIP>
     </SERVICE>
    <SERVICE>
@@ -60,7 +60,7 @@
         <DDESC>Lead Climbing</DDESC>
         <DURA>02 Day</DURA>
         <DCOST>$1200.00</DCOST>
-        <DHOUR>16 Hours</DHOUR>
+        <DEPART>16 Hours</DEPART>
         <DSCRIP>9am-5pm</DSCRIP>
     </SERVICE>
    <SERVICE>
@@ -68,7 +68,7 @@
         <DDESC>Map-Compass</DDESC>
         <DURA>01 Day</DURA>
         <DCOST>$400.00</DCOST>
-        <DHOUR>8 Hours</DHOUR>
+        <DEPART>8 Hours</DEPART>
         <DSCRIP>9am-5pm</DSCRIP>
     </SERVICE>
    <SERVICE>
@@ -76,7 +76,7 @@
         <DDESC>GPS</DDESC>
         <DURA>01 Day</DURA>
         <DCOST>$400.00</DCOST>
-        <DHOUR> 8 Hours</DHOUR>
+        <DEPART> 8 Hours</DEPART>
         <DSCRIP>9am-5pm</DSCRIP>
     </SERVICE>
 </SERVICES>
