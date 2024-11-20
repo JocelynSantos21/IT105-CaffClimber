@@ -22,9 +22,11 @@ var hyp = "";
 function testMe(frm) { 
     myname = frm.user_name.value;
     a = frm.lenA.value;
-    b = frm.lenB.value;  
-    hyp = Math.sqrt(a^2 + b^2)
-    document.getElementById("formresults").innerHTML = "Project Name " + myname + "<p>Length C: " + hyp + "</p>";
+    b = frm.lenB.value; 
+    c = frm.lenC.value;
+    d= frm.lenD.value;  
+    // hyp = Math.sqrt(a^2 + b^2)
+    document.getElementById("formresults").innerHTML = "Project Name " + myname + "<p>First Name: " + a + "</p>";
     
 }
     </script>
@@ -33,16 +35,20 @@ function testMe(frm) {
 
 <form method="GET">
   <p>
-    <label for="name">Project Name:</label>
+    <label for="name"> Frist Name</label>
     <input type="text" id="name" name="user_name" />
   </p>
   <p>
-    <label for="lenA">Length A:</label>
+    <label for="lenA">Last Nane:</label>
     <input type="text" id="lenA" name="lenA" />
   </p>
   <p>
-    <label for="lenB">Length B:</label>
-    <input type="text" id="lenB" name="lenB" />
+    <label for="lenB">Email:</label>
+    <input type="text" id="lenC" name="lenB" />
+  </p>
+        <p>
+    <label for="lenB">Comments:</label>
+    <input type="text" id="lenD" name="lenB" />
   </p>
   <p>
     <input type="button" name="CoolButton" value="ClickMe" onclick="testMe(this.form);"> 
