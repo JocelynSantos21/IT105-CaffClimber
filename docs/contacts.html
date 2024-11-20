@@ -24,13 +24,13 @@ var hyp = "";
 
 // Functions
 function testMe(frm) { 
-    myname = frm.user_name.value;
-    a = frm.lenA.value;
-    b = frm.lenB.value; 
-    c = frm.lenC.value;
-    d= frm.lenD.value;  
+   FirstName= frm.fn.value;
+    LastName = frm.ln.value;
+    Email= frm.eml.value; 
+    Comments = frm.com.value;
+    //d= frm.lenD.value;  
     // hyp = Math.sqrt(a^2 + b^2)
-    document.getElementById("formresults").innerHTML = "Project Name " + myname + "<p>First Name: " + a +"<BR>Last Name"+ b+"<BR>Email" + c+"<BR>Comments" + d+"<BR></p>";
+    document.getElementById("formresults").innerHTML = "First Name " + FirstName + "<p>Last Name: " + LastName +"<BR>Email"+ Email+"<BR>Comments" + Comments+"<BR></p>";
     
 }
     </script>
@@ -40,19 +40,19 @@ function testMe(frm) {
 <form method="GET">
   <p>
     <label for="name"> Frist Name</label>
-    <input type="text" id="name" name="user_name" />
+    <input type="text" id="fn" name="fn" />
   </p>
   <p>
     <label for="lenA">Last Name:</label>
-    <input type="text" id="lenA" name="lenA" />
+    <input type="text" id="ln" name="ln" />
   </p>
   <p>
     <label for="lenB">Email:</label>
-    <input type="text" id="lenC" name="lenB" />
+    <input type="text" id="eml" name="eml" />
   </p>
         <p>
     <label for="lenB">Comments:</label>
-    <input type="text" id="lenD" name="lenB" />
+    <input type="text" id="com" name="com" />
   </p>
   <p>
     <input type="button" name="CoolButton" value="ClickMe" onclick="testMe(this.form);"> 
