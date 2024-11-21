@@ -32,10 +32,10 @@ function fetchJSONData() {
 	})
     .then((data) => {
 		rs =  '<div class="row">';
-		rs += '   <div class="col-md-4"><h4>adventurename/h4></div>';
+		rs += '   <div class="col-md-4"><h4>adventurename</h4></div>';
 		rs += '   <div class="col-md-4"><h4>adventuredate</h4></div>';
 		rs += '   <div class="col-md-4"><h4>customername</h4></div>';
-		rs += '   <div class="col-md-4"><h4>customerquote/h4></div>';	
+		rs += '   <div class="col-md-4"><h4>customerquote</h4></div>';	
 		rs += '</div>';
 		for(i=0;i<data.length;i++) {
 			rs += '<div class="row">';
