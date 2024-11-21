@@ -1,46 +1,9 @@
-{"excursions":[
- {
-   _id: ObjectId('6726dba7ed93c5a11f0b66d9'),
-   adventurename: 'Seneca Rocks',
-   adventuredate: 'July 14, 2024',
-   adventurephoto: 'senecarx.png',
-   customername: 'Denver',
-   customerquote: 'Amazing',
-   excurstionstmt: 'Very cool',
-   descriptionfile: 'Seneca Rocks provides climbers a wide array of sport and traditional climbs.',
-   adventuretags: [ 'climbing', 'camping', 'hiking' ]
- },
- {
-   _id: ObjectId('6726eb771e81c7505852db7b'),
-   adventurename: 'Red River Gorge',
-   adventuredate: 'June 14, 2024',
-   adventurephoto: 'rrg.png',
-   customername: 'Marie',
-   customerquote: 'Fantastic',
-   excurstionstmt: 'Beautiful trip',
-   descriptionfile: 'Premier sport climbing area in eastern Kentucky.',
-   adventuretags: [ 'climbing', 'camping' ]
- },
- {
-   _id: ObjectId('6726edbb1e81c7505852db7c'),
-   adventurename: 'New River Gorge',
-   adventuredate: 'August 14, 2024',
-   adventurephoto: 'newrg.png',
-   customername: 'Jon',
-   customerquote: 'Righteous',
-   excurstionstmt: 'Wild and Wonderful',
-   descriptionfile: 'Southern West Virginia haven for white water rafters and climbers. Wide array of bolted sport climbs.',
-   adventuretags: [ 'climbing', 'camping' ]
- },
- {
-   _id: ObjectId('6726edbb1e81c7505852db7d'),
-   adventurename: 'Shawangunk',
-   adventuredate: 'September 14, 2024',
-   adventurephoto: 'gunks.png',
-   customername: 'Frank',
-   customerquote: 'Whoa',
-   excurstionstmt: 'Epic trip',
-   descriptionfile: 'Finest climbing in southern New York.  Enjoy the New Paltz area - history and local shops.',
-   adventuretags: [ 'climbing', 'camping' ]
- }
-]}
+[{
+    "adventurename":"Seneca Rocks",
+    "adventuredate":"July 14, 2024",
+    "adventurephoto":"senecarx.png",
+    "customername":"Denver",
+    "customerquote":"Amazing",
+    "excurstionstmt":"'Very cool",
+    "descriptionfile":"Seneca Rocks provides climbers a wide array of sport and traditional climbs."
+}]
