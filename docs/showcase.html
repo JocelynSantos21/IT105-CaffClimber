@@ -23,7 +23,7 @@
             </div>
         </div> 
 function fetchJSONData() {
-	fetch("./mycool.json").then((res) => {
+	fetch("data/customer showcase.json").then((res) => {
 		if (!res.ok) {
 			throw new Error(`HTTP error! Status: ${res.status}`);
         }
@@ -31,15 +31,17 @@ function fetchJSONData() {
 	})
     .then((data) => {
 		rs =  '<div class="row">';
-		rs += '   <div class="col-md-4"><h4>Attribute One</h4></div>';
-		rs += '   <div class="col-md-4"><h4>Attribute Two</h4></div>';
-		rs += '   <div class="col-md-4"><h4>Attribute Three</h4></div>';
+		rs += '   <div class="col-md-4"><h4>adventurename/h4></div>';
+		rs += '   <div class="col-md-4"><h4>adventuredate</h4></div>';
+		rs += '   <div class="col-md-4"><h4>customername</h4></div>';
+		rs += '   <div class="col-md-4"><h4>customerquote/h4></div>';	
 		rs += '</div>';
 		for(i=0;i<data.length;i++) {
 			rs += '<div class="row">';
-			rs += '   <div class="col-md-4">' + data[i].attribone + '</div>';
-			rs += '   <div class="col-md-4">' + data[i].attribtwo + '</div>';
-			rs += '   <div class="col-md-4">' + data[i].attribthee + '</div>';
+			rs += '   <div class="col-md-4">' + data[i].adventurename + '</div>';
+			rs += '   <div class="col-md-4">' + data[i].adventuredate + '</div>';
+			rs += '   <div class="col-md-4">' + data[i].customername + '</div>';
+			rs += '   <div class="col-md-4">' + data[i].customerquote + '</div>';	 
 			rs += '</div>';
 		} 
 		document.getElementById("recordset").innerHTML = rs;
@@ -50,7 +52,9 @@ function fetchJSONData() {
 fetchJSONData();
 
 </script>
-     
+<div id="recordset"></div>
+			
+<!--  commented out for javascript 	--		
         <div class="row">
             <div class="col-md-3"><div class="card" style="width: 18rem;">
   <img src="images/gunks.png" class="card-img-top" alt="shaun gunks">
@@ -87,6 +91,8 @@ fetchJSONData();
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div></div>
+// END OF COMMENTS --  -->
+			
    </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
