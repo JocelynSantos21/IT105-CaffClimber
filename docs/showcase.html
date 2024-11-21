@@ -32,7 +32,7 @@ function fetchJSONData() {
 	})
     .then((data) => {
 		for(i=0;i<data.length;i++) {
-			rs += '<div class="row">';
+			rs = '<div class="row">';
 			rs += '<div class="col-md-3">';
 			rs += '<div class="card" style="width: 18rem;">';
 			rs += '<img src="images/' + data[i].adventurephoto + '" class="card-img-top" alt="climbing area">';
