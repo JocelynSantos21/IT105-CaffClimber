@@ -31,18 +31,19 @@ function fetchJSONData() {
         return res.json();
 	})
     .then((data) => {
-		rs =  '<div class="row">';
-		rs += '   <div class="col-md-4"><h4>adventurename</h4></div>';
-		rs += '   <div class="col-md-4"><h4>adventuredate</h4></div>';
-		rs += '   <div class="col-md-4"><h4>customername</h4></div>';
-		rs += '   <div class="col-md-4"><h4>customerquote</h4></div>';	
-		rs += '</div>';
 		for(i=0;i<data.length;i++) {
 			rs += '<div class="row">';
-			rs += '   <div class="col-md-4">' + data[i].adventurename + '</div>';
-			rs += '   <div class="col-md-4">' + data[i].adventuredate + '</div>';
-			rs += '   <div class="col-md-4">' + data[i].customername + '</div>';
-			rs += '   <div class="col-md-4">' + data[i].customerquote + '</div>';	 
+			rs += '<div class="col-md-3">';
+			rs += '<div class="card" style="width: 18rem;">';
+			rs += '<img src="images/' + data[i].adventurephoto + '" class="card-img-top" alt="climbing area">';
+			rs += '<div class="card-body">';
+			rs += '<h5 class="card-title">' + data[i].adventurename + '</h5>';
+			rs += '<p class="card-text">' + data[i].adventuredate + '</p>';
+			rs += '<p>' + data[i].customername + '</p>';
+			rs += '<p>' + data[i].customerquote + '</p>';
+			rs += '<p>' + data[i].excurstionstmt + '</p>';
+			rs += '<p>' + data[i].descriptionfile + '</p>';
+			rs += '<a href="contacts" class="btn btn-primary">Go somewhere</a>';
 			rs += '</div>';
 		} 
 		document.getElementById("recordset").innerHTML = rs;
@@ -53,47 +54,7 @@ function fetchJSONData() {
 fetchJSONData();
 
 </script>
-<div id="recordset"></div>
-			
-<!--  commented out for javascript 	--		
-        <div class="row">
-            <div class="col-md-3"><div class="card" style="width: 18rem;">
-  <img src="images/gunks.png" class="card-img-top" alt="shaun gunks">
-  <div class="card-body">
-    <h5 class="card-title">The Gunks</h5>
-    <p class="card-text"> Date:'September 14, 2024'.</p>
-    <p>Frank</p>
-    <p>"Whoa',Epic trip",</p>
-    <p>"Finest climbing in southern New York.  Enjoy the New Paltz area"</p>
-    <a href="contacts" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div></div>
-             <div class="col-md-3"><div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div></div>
-             <div class="col-md-3"> <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div></div>
-             <div class="col-md-3"> <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div></div>
-// END OF COMMENTS --  -->
-			
+<div id="recordset"></div>			
    </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
