@@ -24,7 +24,7 @@
         </div> 
 <script>
 function fetchJSONData() {
-	fetch("./data/gearlist.json").then((res) => {
+	fetch("./gearlist.json").then((res) => {
 		if (!res.ok) {
 			throw new Error(`HTTP error! Status: ${res.status}`);
         }
